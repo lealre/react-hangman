@@ -1,23 +1,26 @@
-# react-zero - hangman
+# React Hangman Game
 
-To create a vite project
+A simple implementation of the classic Hangman game built with React and TypeScript.
+
+Players try to guess a random word by selecting letters. The word is randomly selected from [src/wordList.json](src/wordList.json).
+
+### How to run
+
+Copy the project
 
 ```bash
-npm create vite
+https://github.com/lealre/react-hangman.git
+cd react-hangman
 ```
 
-It was necessary to run this after the folder was created
+Install dependencies
 
 ```bash
 npm install
 ```
 
+Run the server
+
 ```bash
-npm install --save-dev @types/babel__core @types/babel__generator @types/babel__template @types/babel__traverse @types/estree @types/json-schema
+npm run dev
 ```
-
-Hooks Used
-
-[`useState()`](https://react.dev/reference/react/useState)
-[`useCallback()`](https://react.dev/reference/react/useCallback)
-[`useEffect()`](https://react.dev/reference/react/useEffect)
